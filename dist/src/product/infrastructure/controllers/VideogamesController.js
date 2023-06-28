@@ -37,9 +37,9 @@ class VideogamesController {
                         status: "success",
                         data: games.map((games) => {
                             return {
-                                id: games.id,
+                                id: games.id_videogame,
                                 title: games.title,
-                                date: games.date,
+                                date: games.release_date,
                                 console: games.console,
                                 enterprise: games.enterprise
                             };
